@@ -25,10 +25,10 @@ vi:
       content_massage: "Trang %{link_home} là một %{link_book} và %{link_screencast}
                         để dạy cho các lập trình viên về %{link_rails}
                         Đây là một trang web mẫu về Rails Tutorial."
-      rubyonrails_href: Ruby on Rails Tutorial
-      book_href: book
-      screencasts_href: screencast series
-      rails_href: Ruby on Rails
+      rubyonrails_href: "Ruby on Rails Tutorial"
+      book_href: "book"
+      screencasts_href: "screencast series"
+      rails_href: "Ruby on Rails"
     help:
       title: "Trang hỗ trợ"
       help_page: "Hỗ trợ"
@@ -52,9 +52,17 @@ vi:
       submit: "Đăng kí"
     create:
       flash_success: "Chào mừng bạn đến với Ứng dụng mẫu!"
-    show: 
+    show:
       flash_danger: "Tài khoản này không tồn tại"
   shared:
     error_messages:
       content: "Biểu mẫu có chứa %{count} lỗi"
-
+  sessions:
+    new:
+      title: "Đăng nhập"
+      lg_email: "Email"
+      lg_password: "Mật khẩu"
+      signup_href: "Đăng kí ngay"
+      new_user: "Người dùng mới"
+    create:
+      flash_danger_sessions: "Email/mật khẩu không hợp lệ"
