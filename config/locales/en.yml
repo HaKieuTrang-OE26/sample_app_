@@ -5,6 +5,11 @@ en:
       home: "Home"
       help: "Help"
       login: "Login"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      setting: "Settings"
+      logout: "Log out"
     footer:
       footer_massage: "The %{link_rails} by %{link_michael}"
       rails_href: "Ruby on Rails Tutorial"
