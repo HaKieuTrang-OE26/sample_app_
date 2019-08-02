@@ -1,0 +1,8 @@
+<% provide(:title, t(".title")) %>
+<h1><%= t ".about_page" %></h1>
+<p>
+   <%= t(".content_massage", link_home: link_to(t(".rubyonrails_href"), "https://www.railstutorial.org/"),
+    link_book: link_to(t(".book_href"), "https://www.railstutorial.org/book/"),
+    link_screencast: link_to(t(".screencasts_href"), "http://screencasts.railstutorial.org/"),
+    link_rails: link_to(t(".rails_href"), "http://rubyonrails.org/")).html_safe %>
+</p>
