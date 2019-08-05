@@ -1,6 +1,7 @@
 vi:
   hello: "Xin chào"
   static_pages:
+    base_title: "Hướng dẫn Ruby on Rails"
     home:
       title: "Trang chủ"
       home_page: "Ứng dụng mẫu"
