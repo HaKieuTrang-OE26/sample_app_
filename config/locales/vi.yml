@@ -1,5 +1,17 @@
 vi:
   hello: "Xin chào"
+  layouts:
+    header:
+      home: "Trang chủ"
+      help: "Hỗ trợ"
+      login: "Đăng nhập"
+    footer:
+      footer_massage: "Bài %{link_rails} được viết bởi %{link_michael}"
+      rails_href: "hướng dẫn Ruby on Rails"
+      michael_href: "Michael Hartl"
+      about: "Thông tin"
+      contact: "Liên hệ"
+      new: "Tin tức"
   static_pages:
     base_title: "Hướng dẫn Ruby on Rails"
     home:
@@ -24,3 +36,15 @@ vi:
                        Để nhận sự hộ trợ từ ứng dụng mẫu %{link_book} sách"
       help_href: "Hỗ trợ học Rails"
       book_href: "quyển sách Ruby on Rails Tutorial"
+    contact:
+      title: "Trang liên hệ"
+      contact_page: "Liên hệ"
+      content_massage: "Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu tại %{link_contact}."
+      contact_href: "trang liên hệ"
+  users:
+    new:
+      title: "Trang đăng kí"
+      sign_up: "Đăng kí"
+      content_massage: "Trang đăng kí cho người dụng mới."
+
+
