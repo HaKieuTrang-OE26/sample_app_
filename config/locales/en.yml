@@ -1,5 +1,17 @@
 en:
   hello: "Hello world"
+  layouts:
+    header:
+      home: "Home"
+      help: "Help"
+      login: "Login"
+    footer:
+      footer_massage: "The %{link_rails} by %{link_michael}"
+      rails_href: "Ruby on Rails Tutorial"
+      michael_href: "Michael Hartl"
+      about: "About"
+      contact: "Contact"
+      new: "New"
   static_pages:
     base_title: "Ruby on Rails Tutorial Sample App"
     home:
@@ -24,3 +36,13 @@ en:
                        To get help on this sample app, see the %{link_book} book"
       help_href: "Rails Tutorial help section"
       book_href: "Ruby on Rails Tutorial"
+    contact:
+      title: "Contact page"
+      contact_page: "Contact"
+      content_massage: "Contact the Ruby on Rails Tutorial about the sample app at the %{link_contact}."
+      contact_href: "contact page"
+  users:
+    new:
+      title: "Sign up Page"
+      sign_up: "Sign up"
+      content_massage: "This will be a signup page for new users."
