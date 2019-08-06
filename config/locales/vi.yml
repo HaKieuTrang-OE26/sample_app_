@@ -45,6 +45,13 @@ vi:
     new:
       title: "Trang đăng kí"
       sign_up: "Đăng kí"
-      content_massage: "Trang đăng kí cho người dụng mới."
+      name: "Họ tên"
+      email: "Email"
+      password: "Mật khẩu"
+      password_confirmation: "Nhập lại mật khẩu"
+      submit: "Đăng kí"
+    create:
+      flash_success: "Chào mừng bạn đến với Ứng dụng mẫu!"
+
 
 

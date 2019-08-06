@@ -45,4 +45,10 @@ en:
     new:
       title: "Sign up Page"
       sign_up: "Sign up"
-      content_massage: "This will be a signup page for new users."
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Password_confirmation"
+      submit: "Create my account"
+    create:
+      flash_success: "Welcome to the Sample App!"

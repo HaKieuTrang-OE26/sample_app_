@@ -50,7 +50,18 @@ GEM
     ast (2.4.0)
     autoprefixer-rails (9.6.1)
       execjs
+<<<<<<< HEAD
     bcrypt (3.1.12)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    bcrypt (3.1.12)
+=======
+>>>>>>> 39ca3aa... Chapter_5: Filling in the layout
+=======
+    bcrypt (3.1.12)
+>>>>>>> ba2a6b6... Chapter 6: Modeling users
+>>>>>>> f0e06ad... Chapter 6: Modeling users
     bindex (0.8.1)
     bootsnap (1.4.4)
       msgpack (~> 1.0)
