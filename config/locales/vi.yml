@@ -41,7 +41,7 @@ vi:
       contact_page: "Liên hệ"
       content_massage: "Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu tại %{link_contact}."
       contact_href: "trang liên hệ"
-      users:
+  users:
     new:
       title: "Trang đăng kí"
       sign_up: "Đăng kí"
