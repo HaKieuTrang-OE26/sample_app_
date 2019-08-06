@@ -69,6 +69,7 @@ en:
       lg_password: "Password"
       signup_href: "Sign up now"
       new_user: "New user"
+      remember_me: "Remember me on this computer"
     create:
       flash_danger_sessions: "Invalid email/password combination"
 

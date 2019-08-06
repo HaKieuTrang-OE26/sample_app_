@@ -153,7 +153,6 @@ GEM
     parallel (1.17.0)
     parser (2.6.3.0)
       ast (~> 2.4.0)
-    pg (0.20.0)
     powerpack (0.1.2)
     public_suffix (3.1.1)
     puma (3.12.1)
