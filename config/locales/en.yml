@@ -5,6 +5,11 @@ en:
       home: "Home"
       help: "Help"
       login: "Login"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      setting: "Settings"
+      logout: "Log out"
     footer:
       footer_massage: "The %{link_rails} by %{link_michael}"
       rails_href: "Ruby on Rails Tutorial"
@@ -25,10 +30,10 @@ en:
       content_massage: "The %{link_home} is a %{link_book} and %{link_screencast}
                         to teach web development with %{link_rails}
                         This is the sample application for the tutorial."
-      rubyonrails_href: Ruby on Rails Tutorial
-      book_href: book
-      screencasts_href: screencast series
-      rails_href: Ruby on Rails
+      rubyonrails_href: "Ruby on Rails Tutorial"
+      book_href: "book"
+      screencasts_href: "screencast series"
+      rails_href: "Ruby on Rails"
     help:
       title: "Help page"
       help_page: "Help"
@@ -52,9 +57,18 @@ en:
       submit: "Create my account"
     create:
       flash_success: "Welcome to the Sample App!"
-    show: 
+    show:
       flash_danger: "This users does not exist"
   shared:
     error_messages:
       content: "The form contains %{count} error"
+  sessions:
+    new:
+      title: "Log in"
+      lg_email: "Email"
+      lg_password: "Password"
+      signup_href: "Sign up now"
+      new_user: "New user"
+    create:
+      flash_danger_sessions: "Invalid email/password combination"
 
