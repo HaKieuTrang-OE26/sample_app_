@@ -64,5 +64,6 @@ vi:
       lg_password: "Mật khẩu"
       signup_href: "Đăng kí ngay"
       new_user: "Người dùng mới"
+      remember_me: "Ghi nhớ tôi trên máy tính này"
     create:
       flash_danger_sessions: "Email/mật khẩu không hợp lệ"

@@ -4,3 +4,5 @@ validates:
   min_length_password: 6
 gravatar:
   size: 80
+controller: 
+  one: 1
