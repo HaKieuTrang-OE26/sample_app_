@@ -59,6 +59,23 @@ en:
       flash_success: "Welcome to the Sample App!"
     show:
       flash_danger: "This users does not exist"
+    update:
+      flash_success_u: "Profile updated"
+    destroy:
+      flash_success_d: "User deleted"
+      flash_danger_d: "Delete fail"
+    logged_in_user:
+      flash_danger_lg: "Please log in"
+    index: 
+      title: "All users"
+    edit:
+      title: "Edit user"
+      edit_page: "Update your profile"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Password_confirmation"
+      submit: "Save changes"
   shared:
     error_messages:
       content: "The form contains %{count} error"
