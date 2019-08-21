@@ -54,6 +54,23 @@ vi:
       flash_success: "Chào mừng bạn đến với Ứng dụng mẫu!"
     show:
       flash_danger: "Tài khoản này không tồn tại"
+    update:
+      flash_success_u: "Đã cập nhật tài khoản"
+    destroy:
+      flash_success_d: "Đã xóa tài khoản"
+      flash_danger_d: "Xóa thất bại"
+    logged_in_user:
+      flash_danger_lg: "Vui lòng đăng nhập"
+    index: 
+      title: "Tất cả người dùng"
+    edit:
+      title: "Sửa người dùng"
+      edit_page: "Cập nhật tài khoản"
+      name: "Họ tên"
+      email: "Email"
+      password: "Mật khẩu"
+      password_confirmation: "Nhập lại mật khẩu"
+      submit: "Lưu thay đổi"
   shared:
     error_messages:
       content: "Biểu mẫu có chứa %{count} lỗi"
