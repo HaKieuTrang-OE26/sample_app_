@@ -8,4 +8,5 @@ gravatar:
 controller: 
   one: 1
 page: 10
+time_expired: 2
 
