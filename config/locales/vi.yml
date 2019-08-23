@@ -51,7 +51,7 @@ vi:
       password_confirmation: "Nhập lại mật khẩu"
       submit: "Đăng kí"
     create:
-      flash_success: "Chào mừng bạn đến với Ứng dụng mẫu!"
+      flash_info: "Hãy kiểm tra email để kích hoạt tài khoản"
     show:
       flash_danger: "Tài khoản này không tồn tại"
     update:
@@ -71,6 +71,7 @@ vi:
       password: "Mật khẩu"
       password_confirmation: "Nhập lại mật khẩu"
       submit: "Lưu thay đổi"
+      flash_danger: "Tài khoản chưa được kích hoạt"
   shared:
     error_messages:
       content: "Biểu mẫu có chứa %{count} lỗi"
@@ -84,3 +85,13 @@ vi:
       remember_me: "Ghi nhớ tôi trên máy tính này"
     create:
       flash_danger_sessions: "Email/mật khẩu không hợp lệ"
+    check_activated: 
+      flash_success_sessions: "Chúc mừng đăng nhập thành công!"
+      flash_warning_sessions: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn." 
+  user_mailer:
+    account_acti_control: 
+      flash_success_ac: "Tài khoản đã được kích hoạt"
+      flash_danger_ac: "Liên kết kích hoạt không hợp lệ"
+  mailers:
+    user_mailer: 
+      subject: "Kích hoạt tài khoản"

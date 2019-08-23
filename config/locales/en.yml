@@ -56,7 +56,7 @@ en:
       password_confirmation: "Password_confirmation"
       submit: "Create my account"
     create:
-      flash_success: "Welcome to the Sample App!"
+      flash_info: "Please check your email to activate your account."
     show:
       flash_danger: "This users does not exist"
     update:
@@ -76,6 +76,7 @@ en:
       password: "Password"
       password_confirmation: "Password_confirmation"
       submit: "Save changes"
+      flash_danger: "User has not been avtivated!"
   shared:
     error_messages:
       content: "The form contains %{count} error"
@@ -89,4 +90,15 @@ en:
       remember_me: "Remember me on this computer"
     create:
       flash_danger_sessions: "Invalid email/password combination"
+    check_activated: 
+      flash_success_sessions: "Congratulations on successful login!"
+      flash_warning_sessions: "Account not activated. Check your email for the activation link." 
+  user_mailer:
+    subject: "Account activation"
+    account_acti_control: 
+      flash_success_ac: "Account activated!"
+      flash_danger_ac: "Invalid activation link"
+  mailers:
+    user_mailer: 
+      subject: "Account activation"
 
