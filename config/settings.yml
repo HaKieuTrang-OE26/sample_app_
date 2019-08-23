@@ -2,6 +2,7 @@ validates:
   max_length_name: 50
   max_length_email: 255
   min_length_password: 6
+  max_length_micropost: 140
 gravatar:
   size: 80
   gravatar_user_size: 50
@@ -9,4 +10,8 @@ controller:
   one: 1
 page: 10
 time_expired: 2
+picture_size: 5
+current_user_size: 50
+micropost:
+  accept_img: "image/jpeg,image/gif,image/png"
 

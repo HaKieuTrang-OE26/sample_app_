@@ -9,6 +9,8 @@ class UsersController < ApplicationController
   end
 
   def show
+    @microposts = @user.microposts.paginate(page: params[:page],
+      per_page: Settings.page)
     return if @user.activated?
     flash[:danger] = t ".flash_danger"
     redirect_to root_path
