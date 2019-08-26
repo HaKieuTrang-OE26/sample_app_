@@ -7,7 +7,7 @@ class UsersController < ApplicationController
   def index
     @users = User.paginate page: params[:page], per_page: Settings.page
   end
-  
+
   def show
     return if @user.activated?
     flash[:danger] = t ".flash_danger"

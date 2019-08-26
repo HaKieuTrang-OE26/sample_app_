@@ -95,10 +95,35 @@ en:
       flash_warning_sessions: "Account not activated. Check your email for the activation link." 
   user_mailer:
     subject: "Account activation"
+    p_subject: "Password reset"
     account_acti_control: 
       flash_success_ac: "Account activated!"
       flash_danger_ac: "Invalid activation link"
+    password_reset:
+      pw_page: "Password reset"
+      click_link: "To reset your password click the link below:"
+      reset: "Reset password"
+      time: "This link will expire in two hours"
+      content: "If you did not request your password to be reset, please ignore this email and
+                your password will stay as it is."
   mailers:
     user_mailer: 
       subject: "Account activation"
-
+  password_resets:
+    new: 
+      title: "Forgot password"
+      pw_email: "Email"
+      submit: "Submit"
+    edit:
+      title: "Reset password"
+      pw_password: "Password"
+      pw_password_confirmation: "Password_confirmation"
+      pw_submit: "Update password"
+    create:
+      pw_flash_info: "Email sent with password reset instructions"    
+      pw_flash_danger: "Email address not found"
+    update:
+      pw_error: "can't be empty"
+      pw_success: "Password has been reset."
+    check_expiration: 
+      pw_flash_danger: "Password reset has expired."

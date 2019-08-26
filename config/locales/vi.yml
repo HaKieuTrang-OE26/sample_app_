@@ -95,3 +95,20 @@ vi:
   mailers:
     user_mailer: 
       subject: "Kích hoạt tài khoản"
+  password_resets:
+    new: 
+      title: "Quên mật khâủ"
+      pw_email: "Email"
+      submit: "Lưu lại"
+      edit:
+      pw_password: "Mật khẩu"
+      pw_password_confirmation: "Nhập lại mật khẩu"
+      pw_submit: "Cập nhật mật khẩu"
+    create:
+      pw_flash_info: "Đã gửi email đặt lại mật khẩu"    
+      pw_flash_danger: "Không tìm thấy email"
+    update:
+      pw_error: "Không thể để trống"
+      pw_success: "Mật khẩu đã được đặt lại"
+    check_expiration: 
+      pw_flash_danger: "Đặt lại mật khẩu đã hết hạn"
