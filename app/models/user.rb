@@ -2,6 +2,7 @@ class User < ApplicationRecord
   attr_accessor :remember_token, :activation_token, :reset_token
   before_save :downcase_email
   before_create :create_activation_digest
+  has_many :microposts, dependent: :destroy
   validates :name, presence: true,
     length: {maximum: Settings.validates.max_length_name}
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
@@ -49,7 +50,7 @@ class User < ApplicationRecord
 
   def create_reset_digest
     self.reset_token = User.new_token
-    update_attribute :reset_digest,  User.digest(reset_token), 
+    update_attribute :reset_digest, User.digest(reset_token),
       :reset_sent_at, Time.zone.now
   end
 
@@ -61,8 +62,12 @@ class User < ApplicationRecord
     reset_sent_at < Settings.time_expired.hours.ago
   end
 
+  def feed
+    Micropost.feed(id)
+  end
+
   private
-  
+
   def downcase_email
     self.email = email.downcase
   end

@@ -24,6 +24,8 @@ en:
       home_page: "Sample App"
       content_massage: "This is the home page for the %{link_home} sample application."
       rubyonrails_href: "Ruby on Rails Tutorial"
+      micropost_feed: "Micropost Feed"
+      alt: "Rails logo"
     about:
       title: "About Pages"
       about_page: "About"
@@ -80,6 +82,11 @@ en:
   shared:
     error_messages:
       content: "The form contains %{count} error"
+    micropost_form: 
+      placeholder: "Compose new micropost..."
+      submit: "Post"
+    user_info:
+      micropost: "micropost"
   sessions:
     new:
       title: "Log in"
@@ -127,3 +134,25 @@ en:
       pw_success: "Password has been reset."
     check_expiration: 
       pw_flash_danger: "Password reset has expired."
+  microposts:
+    destroy:
+      mc_success: "Micropost deleted"
+      mc_danger: "error"
+    picture_size:
+      size: "should be less than 5MB"
+    create:
+      mc_success_create: "Micropost created!"
+    micropost:
+      mc_delete: "delete"
+      confirm: "You sure?"
+  controller:
+    application: 
+      flash_danger: "Please log in."
+  views:
+    users:
+      show:
+        microposts: "Microposts"
+    micropost:
+      mcp: 
+        post: "Post"
+        ago: "ago."

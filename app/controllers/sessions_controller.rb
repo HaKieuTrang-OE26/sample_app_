@@ -27,7 +27,7 @@ class SessionsController < ApplicationController
   def check_activated user
     if user.activated?
       log_in user
-      check_rememberme user
+      check_remember user
       flash[:success] = t "sessions.check_activated.flash_success_sessions"
       redirect_back_or user
     else
