@@ -79,6 +79,10 @@ en:
       password_confirmation: "Password_confirmation"
       submit: "Save changes"
       flash_danger: "User has not been avtivated!"
+    following:
+      title: "Following"
+    followers: 
+      title: "Followers"
   shared:
     error_messages:
       content: "The form contains %{count} error"
@@ -148,6 +152,11 @@ en:
   controller:
     application: 
       flash_danger: "Please log in."
+    relationships:
+      flash_warning: "Users not found"
+    users:
+      title_following: "Following"
+      title_followers: "Followers"
   views:
     users:
       show:
