@@ -13,7 +13,7 @@ gem "faker", "1.7.3"
 gem "jbuilder", "~> 2.5"
 gem "jquery-rails"
 gem "mini_magick", "4.7.0"
-gem "puma", "~> 3.11"
+gem "puma", "~> 4.3"
 gem "rails", "~> 5.2.3"
 gem "rails-i18n"
 gem "rubocop", "~> 0.54.0", require: false
